@@ -1,0 +1,32 @@
+package com.backend.ShopSphere.enums;
+
+public enum FulfillmentStatus {
+
+    PENDING_SELLER_CONFIRMATION,
+
+    CONFIRMED,
+
+    PROCESSING,
+
+    READY_FOR_PICKUP,
+
+    SHIPPED,
+
+    IN_TRANSIT,
+
+    OUT_FOR_DELIVERY,
+
+    DELIVERED,
+
+    CANCELLED,
+
+    RETURN_REQUESTED,
+
+    RETURN_APPROVED,
+
+    RETURN_REJECTED,
+
+    RETURN_PICKED_UP,
+
+    RETURN_COMPLETED
+}
